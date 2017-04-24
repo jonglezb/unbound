@@ -84,7 +84,7 @@
 /** The TCP reading or writing query timeout in milliseconds */
 #define TCP_QUERY_TIMEOUT 120000
 /** The TCP timeout in msec for fast queries, above half are used */
-#define TCP_QUERY_TIMEOUT_FAST 200
+#define TCP_QUERY_TIMEOUT_FAST 120000
 
 #ifndef NONBLOCKING_IS_BROKEN
 /** number of UDP reads to perform per read indication from select */
