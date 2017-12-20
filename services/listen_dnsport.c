@@ -68,7 +68,7 @@
 #endif
 
 /** number of queued TCP connections for listen() */
-#define TCP_BACKLOG 256 
+#define TCP_BACKLOG 8192
 
 /**
  * Debug print of the getaddrinfo returned address.
